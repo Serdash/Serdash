@@ -1,16 +1,50 @@
-### Hi there 👋
+<!--- div classes--->
+<div class="welcome">
+    HELLO AND WELCOME TO MY GITHUB! 👋
+</div>
 
-<!--
-**Serdash/Serdash** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div class="text">
+    
+    A little bit about me 💻
 
-Here are some ideas to get you started:
+   -   I like to keep learning 🎓
+   -   I am interested in the cloud ☁️ 
+   -   Love Linux 🐧
+   -   Highly adaptable 🚀
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+<!--styling-->
+<style>
+    .welcome {
+        text-shadow: 2px 2px deepskyblue;
+        font-weight: 900;
+        font-size: 30px;
+        position: relative;
+        white-space: nowrap;
+        animation: scroll-left 20s linear infinite;
+        color: wheat
+    }
+
+    @keyframes scroll-left {
+            from {
+        left: 100%;
+        width: 500%; 
+        }
+            to {
+        left: -100%;
+        width: 500%;
+        }
+    }
+
+</style>
+
+<!--scripting-->
+<script>
+function scrollleft() {
+    document.getElementById("scrolling-text").style.left = '100%';
+    setTimeout(scrollleft, 25);
+  }
+   scrollleft();
+
+</script>
