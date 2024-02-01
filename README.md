@@ -1,11 +1,11 @@
 <div class="welcome">
-    HELLO AND WELCOME TO MY GITHUB! 👋
+    HELLO AND WELCOME TO MY GITHUB! 👋<br>
 </div>
 
 <div class="text"> 
-    A little bit about me 💻:
-   -   I like to keep learning 🎓
-   -   I am interested in the cloud ☁️ 
-   -   Love Linux 🐧
-   -   Highly adaptable 🚀
+    <p></p>A little bit about me 💻:</br></p>
+   -   I like to keep learning 🎓<br>
+   -   I am interested in the cloud ☁️ <br>
+   -   Love Linux 🐧<br>
+   -   Highly adaptable 🚀<br>
 </div>
